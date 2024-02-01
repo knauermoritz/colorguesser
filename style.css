@@ -1,0 +1,91 @@
+body {
+    font-family: 'VT323', Arial, Helvetica, sans-serif;
+    font-size: 26px;
+  
+  }
+  h1 {
+    background: #fff;
+    display: inline-block;
+    padding: 10px;
+    margin-block: 10px;
+    width: 50%;
+    -webkit-box-shadow: 5px 5px 0px 0px #000000;
+    box-shadow: 5px 5px 0px 0px #000000;
+  }
+  #myColor{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    background: #fff;
+    display: inline-block;
+    margin-block: 10px;
+    padding:10px;
+    -webkit-box-shadow: 5px 5px 0px 0px #000000;
+    box-shadow: 5px 5px 0px 0px #000000;
+  }
+  
+  #genColor{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  span {
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: monospace;
+  }
+  button {
+    font-family: 'VT323', Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    -webkit-box-shadow: 5px 5px 0px 0px #000000;
+    box-shadow: 5px 5px 0px 0px #000000;
+  
+  }
+  input {
+    font-family: 'VT323', Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    -webkit-box-shadow: 5px 5px 0px 0px #000000;
+    box-shadow: 5px 5px 0px 0px #000000;
+  
+  }
+  
+  button:hover {
+    -webkit-box-shadow: 5px 5px 0px 0px #000000;
+    box-shadow: 1px 1px 0px 0px #000000;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  h1 {
+    font-family: 'VT323', Arial, Helvetica, sans-serif;
+    font-size: 50px; 
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
